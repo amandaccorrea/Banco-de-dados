@@ -1,0 +1,81 @@
+create table orientacao_sexual(
+    id integer PRIMARY KEY autoincrement,
+    orientacao varchar(40)
+)
+
+insert into orientacao_sexual (orientacao)
+values ("maculino"),('feminino'),("transgenero"),("nao especificar")
+
+
+create table cliente(
+    id integer primary key autoincrement,
+    nome varchar(40)NOT NULL,
+    usuario varchar(40)NOT NULL,
+    senha varchar(40)NOT NULL,
+    cpf varchar(40)NOT NULL,
+    email varchar(40)NOT NULL,
+    telefone varchar(40)NOT NULL,
+    dt_nascimento date,
+    id_sexo integer,
+    numero_endereço varchar(40),
+    complemento_endereço varchar(40),
+    FOREIGN KEY (id_sexo) REFERENCES orientacao_sexual(id)
+)
+
+create table endereco_cliente(
+    id integer primary key AUTOINCREMENT,
+    nome varchar(40),
+    bairro varchar(40),
+    cidade varchar(40),
+    estado varchar(2),
+    pais varchar(20),
+    cep varchar(9),
+    id_cliente INTEGER,
+    FOREIGN KEY (id_cliente) REFERENCES cliente(id)
+)
+
+create table categoria_produto(
+    id integer primary key AUTOINCREMENT,
+    cat_prod varchar(40),
+    descricao varchar(40)
+)
+
+create table funcionarios(
+    id integer primary key AUTOINCREMENT,
+    nome_completo varchar(40),
+    cpf varchar(40)
+)
+
+create table produto(
+    id integer primary key AUTOINCREMENT,
+    id_categoria_produto integer,
+    nome_produto varchar(40),
+    descricao varchar(40),
+    qtd_estoque integer,
+    dt_fabricacao date,
+    valor_uni float,
+    id_funcionario integer,
+    FOREIGN KEY (id_categoria_produto) REFERENCES categoria_produto(id)
+    FOREIGN KEY (id_funcionario) REFERENCES funcionarios(id)
+)
+
+create table pedido(
+    id integer primary key AUTOINCREMENT,
+    dt_pedido date,
+    valor_total_pedido float,
+    id_cliente integer,
+    FOREIGN KEY (id_cliente) REFERENCES cliente(id)
+)
+
+select count (id)
+from pedido
+group by id_cliente
+
+create table item_pedido(
+    id integer primary key AUTOINCREMENT,
+    qtd integer,
+    id_pedido integer,
+    id_produto integer,
+    FOREIGN KEY (id_pedido) REFERENCES pedido(id),
+    FOREIGN KEY (id_produto) REFERENCES produto(id)
+)

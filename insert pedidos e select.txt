@@ -1,0 +1,61 @@
+INSERT INTO pedido (dt_pedido, valor_total_pedido , id_cliente)
+ VALUES     ("06/04", "28,00","4"),
+            ("06/04", "42,00","1"),
+            ("06/04", "18,00","3"),
+            ("07/04", "120,00","2"),
+            ("07/04", "39,00","5")
+            
+            
+INSERT INTO item_pedido (qtd, id_pedido, id_produto)
+ VALUES     ("1", "1", "2"),
+ 			("3", "2", "11"),
+            ("3", "3", "18"),
+            ("1", "4", "7"),
+            ("5", "5", "25")
+
+SELECT 	p.id as codigo_pedido,
+	  	c.nome as cliente,
+		c.telefone as telefone,
+		p.dt_pedido as data,
+		ip.id_produto as codigo_produto,
+		p2.nome_produto as produto,		
+		ip.qtd as quantidade,
+		p2.valor_uni as valor_unit,
+		p.valor_total_pedido as total,
+		ec.nome as rua,
+		c.numero_endereço as numero,
+		c.complemento_endereço as complemento,
+		ec.bairro as bairro,
+		ec.cep as cep,
+		ec.cidade as cidade,
+		ec.estado as estado
+FROM cliente c, pedido p , item_pedido ip ,endereco_cliente ec, produto p2 
+WHERE p.id = 5
+AND p.id_cliente = c.id 
+AND ip.id_pedido = p.id 
+AND ec.id_cliente = c.id 
+AND p2.id = ip.id_produto
+
+CREATE VIEW nota_fiscal as
+SELECT p.id as codigo_pedido,
+	  	c.nome as cliente,
+		c.telefone as telefone,
+		p.dt_pedido as data,
+		ip.id_produto as codigo_produto,
+		p2.nome_produto as produto,		
+		ip.qtd as quantidade,
+		p2.valor_uni as valor_unit,
+		p.valor_total_pedido as total,
+		ec.nome as rua,
+		c.numero_endereço as numero,
+		c.complemento_endereço as complemento,
+		ec.bairro as bairro,
+		ec.cep as cep,
+		ec.cidade as cidade,
+		ec.estado as estado
+FROM  pedido p
+INNER JOIN cliente c on p.id_cliente = c.id 
+INNER JOIN item_pedido ip on ip.id_pedido = p.id 
+INNER JOIN produto p2 on p2.id = ip.id_produto 
+INNER JOIN endereco_cliente ec on ec.id_cliente = c.id 
+WHERE p.id ==3

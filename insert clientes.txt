@@ -1,0 +1,15 @@
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Pedro Antonio Moraes", "XenialVincent", "DrXPirsr", "872.260.131-77", "pedro-moraes82@murosterrae.com.br","(38) 98461-5652", "01/04/1947", "1", "836", "Casa Amarela")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Calebe Bryan Barbosa", "Calebeoff", "gpn30kmW09", "752.313.445-91", "calebe_bryan_barbosa@ppe.ufrj.br", "(95) 99932-0321", "06/03/1977", "1", "489", "Ao lado do mercado")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Priscila Manuela Jennifer de Paula", "Manuela Jenmann","g8W7JrZUz3", "411.442.402-47", "priscila-depaula86@gmailo.com", "(62) 98497-2978", "01/04/1989", "2", "736", "Casa")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Lara Lúcia Cardoso", "Larasan", "QiwQgSOYPQ", "989.001.515-33", "laraluciacardoso@id.uff.br", "(86) 98476-5459", "10/02/1992", "3", "632", "Apartamento 2")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Isis Débora da Silva", "DebisIsiva", "XH8qEqmWLB", "925.428.964-70", "isis.debora.dasilva@valedesign.com.br", "(61) 98504-0835", "02/03/1984", "4", "417", "Apto 8")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Nina Alessandra Renata Brito", "Ninasan", "pzdXJCOKQI", "802.972.190-06", "ninaalessandrabrito@citi.com", "(84) 98391-8717", "03/04/1995", "3", "245", "ao lado da padaria")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Filipe Kevin Sérgio Gonçalves", "FilipeTheElite", "T40qJHei1O", "737.783.953-86", "filipe.kevin.goncalves@lbrazil.com.br", "(81) 99462-7864", "06/02/1989", "4", "318", "Casa azul")
+
+INSERT INTO cliente (nome, usuario, senha, cpf, email, telefone, dt_nascimento, id_sexo, numero_endereço, complemento_endereço) VALUES ("Lúcia Juliana da Silva", "Lucinha90", "i75i34kjcN", "065.610.300-01", "lucia.juliana.dasilva@vitaonline.com.br", "(21) 98325-5074", "15/03/1990", "2", "759", "Casa B")

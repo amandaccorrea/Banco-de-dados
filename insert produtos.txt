@@ -1,0 +1,84 @@
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Bolo de chocolate com ganache','Delicioso bolo  de chocolate com ganache de chocolate meio amargo. Uma excelente opção para dias frios que você está precisando de um chocolate para alegrar. (Serve 5 fatias)', '3', '06/04/2022', '28.00','1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1','Bolo de baunilha com ninho trufado', 'Delicioso bolo massa de baunilha com muita cobertura de ninho trufado. Delicioso e irresistível. (Serve 5 fatias)', '2', '06/04/2022','28.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Bolo de churros', 'Maravilhoso bolo de churros é uma excelente opção para sair do tradicional chocolate. Massa fofinha feita com canela e a cobertura de doce de leite artesanal cremosíssimo! Acompanha mini churros para que você possa aproveitar o máximo do sabor do doce de leite. (Serve 5 fatias)', '3', '06/04/2022', '35.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta de brigadeiro meio amargo e oreo', 'Deliciosa torta com massa 100% cacau levemente úmida e doce na medida certa. Com recheio de brigadeiro meio amargo e Oreo. (Serve 24 fatias)', '1', '07/04/2022', '110.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta de chocolate e caramelo salgado', 'Maravilhosa torta de chocolate com massa 100% cacau molhadinha na medida certa. Com 4 camadas de recheio entre chocolate meio amargo e caramelo salgado. (Serve 24 fatias)', '2', '07/04/2022', '110.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta de maracujá trufado com doce de leite', 'Deliciosa torta feita com massa branca e úmida na medida certa. Com mousse de maracujá trufado e chocolate branco nobre. Camada de doce de leite deixando o doce equilibrado. (Serve 24 fatias)', '1', '07/04/2022', '110.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta Red Velvet', 'Maravilhosa torta red velvet com massa amanteigada  vermelha, recheio de cream cheese e geleia artesanal de morango. Massa levemente úmida. (Serve 24 fatias)', '1', '06/04/2022', '120.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta de chocolate com ninho e morango', 'Deliciosa torta com massa fofinha de chocolate, cobertura de brigadeiro de leite ninho, recheio de brigadeiro de leite ninho com morango. (Serve 24 fatias)', '1', '07/04/2022', '110.00', '1')
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ('1', 'Torta de limão siciliano e mirtilos', 'Deliciosa torta com massa de limão siciliano e mirtilos com recheio de cream cheese. (Serve 24 fatias)', '1', '07/04/2022', '110.00', '1')
+
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta de brigadeiro meio amargo e oreo", "Massa 100% cacau levemente úmida e doce na medida certa. Com recheio de brigadeiro meio amargo e Oreo", "6", "06/04/2022", "14,00", "2")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta de chocolate e caramelo salgado", "Massa 100% cacau molhadinha na medida certa. Com 4 camadas de recheio entre chocolate meio amargo e caramelo salgado", "7", "07/04/2022", "14.00", "2")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta de maracujá trufado com doce de leite", "Massa branca e úmida na medida certa. Com mousse de maracujá trufado e chocolate branco nobre. Camada de doce de leite deixando o doce equilibrado", "7", "07/04/2022", "14.00", "2")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta Red Velvet", "Massa amanteigada  vermelha, recheio de cream cheese e geleia artesanal de morango. Massa levemente úmida", "5", "06/04/2022", "14.00", "2")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta de chocolate com ninho e morango","Massa fofinha de chocolate, cobertura de brigadeiro de leite ninho, recheio de brigadeiro de leite ninho com morango", "4", "07/04/2022", "14.00", "2")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("2", "Fatia de torta de limão siciliano e mirtilos", "Massa de limão siciliano e mirtilos com recheio de cream cheese", "6", "07/04/2022", "14.00","2")
+
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3", "Tortinha de limão", "Biscoito maizena com mousse de limão", "6", "05/04/2022", "11.00", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3", "Tortinha de maracujá", "Biscoito maizena de chocolate com mousse de maracujá", "5", "05/04/2022", "11", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3", "Alfajor", "Biscoito recheado com doce de leite e banhado com chocolate meio amargo", "9", "04/04/2022", "6", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3","Brownie de nutella", "Massa densa de chocolate com nozes e nutella", "9", "04/04/2022", "9", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3", "Pão de mel", "Massa à base de especiarias e mel, recheado com doce de leite", "8", "05/04/2022", "8", "4")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3","Pudim de leite condensado", "Delicioso pudim de leite condensado para todas as ocasiões. Tem aproximadamente 1,2kg é ideal para sobremesa em família", "2", "07/04/2022", "35", "4")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3", "Bolo de pote de chocolate com morango", "Massa de chocolate com recheio de brigadeiro com pedaços de morango","2", "07/04/2022", "10.50", "4")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("3","Bolo de pote de ninho com morango", "Massa branca com recheio de brigadeiro de leite ninho com pedaços de morango", "1", "07/04/2022", "10.50", "4")
+
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4", "Bombom de morango", "Morango enrolado em brigadeiro branco e banhado em chocolate", "5", "06/04/2022", "7.80", "5")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4","Bombom de oreo", "Recheio de biscoito oreo com brigadeiro branco e cobertura de chocolate branco", "6", "06/04/2022", "7.80", "5")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4","Coxinha de leite ninho com nutella", "Brigadeiro de leite ninho com cobertura de nutella", "3", "05/04/2022", "6.50", "5")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4","Trufa de chocolate", "Caixa com 10 unidades de trufas sabores: Brigadeiro tradicional, Beijinho, Leite ninho, Doce de leite e Nozes", "4", "05/04/2022", "25.00", "5")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4","Docinhos tradicionais", "100 unidades de docinhos tradicionais tamanho festa (10g). Sabores: Brigadeiro, Beijinho, Paçoca, Leite ninho, Cajuzinho, Moranguinho, Amendoim e Prestígio", "1", "07/04/2022", "85.00", "5")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("4", "Docinhos especiais", "100 unidades de docinhos especiais tamanho festa (10g). Sabores: Leite ninho com nutella, Leite ninho com doce de leite, Paçoca com doce de leite, Doce de leite com coco, Moranguinho com nutella, Churros, Laka com oreo e Oreo", "1", "07/04/2022", "100.00","5")
+
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("5", "Quiche de frango com alho poró", "Massa crocante com recheio de frango com alho poró", "4", "06/04/2022", "9.00","6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("5","Quiche de queijo com bacon", "Massa crocante com recheio de queijo com bacon", "2", "06/04/2022", "9.00", "6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("5","Pão de queijo", "Delicioso pão de queijo recheado com catupiry", "6", "07/04/2022", "8.50", "6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("5","Empadinha de frango com catupiry", "Massa crocante com recheio de frango e catupiry", "2", "06/04/2022", "6.00", "6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("5","Salgadinhos sortidos", "100 unidades de salgadinhos fritos. Sabores: Coxinha, Bolinha de queijo, Queijo e presunto, Risole de carne, Kibe e Enroladinho de salsicha", "2", "07/04/2022", "65.00", "6")
+
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Coca Cola", "Lata de 350ml", "50", "25/02/2022", "5.00", "6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Coca Cola", "Garrafa de 2L", "23", "21/03/2022", "13.00", "6")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Guaraná  Antarctica", "Lata de 350ml","20", "24/03/2022", "4.00", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Guaraná  Antarctica", "Garrafa de 2L", "10", "01/04/2022", "10.00", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Água com gás", "Garrafa com 510ml", "28", "09/03/2022", "4.00", "3")
+
+INSERT INTO produto (id_categoria_produto, nome_produto, descricao, qtd_estoque, dt_fabricacao, valor_uni, id_funcionario) VALUES ("6","Água mineral", "Garrafa com 510ml", "20", "06/03/2022", "3.50", "3")

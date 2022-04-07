@@ -1,0 +1,15 @@
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("avenida dom pedro I", "centro", "petropolis", "rio de janeiro", "brasil", "25610-020", "1")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("rua ângelo joão brand", " independencia", "petropolis", "rio de janeiro", "brasil", "25645-240", "2")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("avenida getúlio vargas", " quitandinha", "petropolis", "rio de janeiro", "brasil", "25651-076", "3")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("rua do imperador ", " centro", "petropolis", "rio de janeiro", "brasil", "25620-959", "4")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("rua doutor nelson de sa earp", " centro", "petropolis", "rio de janeiro", "brasil", "25680-195", "5")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("rua gonçalves dias", "valparaiso", "petropolis", "rio de janeiro", "brasil", "25655-122", "6")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("avenida portugal", "valparaiso", "petropolis", "rio de janeiro", "brasil", "25655-374", "7")
+
+INSERT INTO endereco_cliente  (nome, bairro, cidade, estado, pais, cep, id_cliente) VALUES ("rua quissama", "quissama", "petropolis", "rio de janeiro", "brasil", "25615-531", "8")
